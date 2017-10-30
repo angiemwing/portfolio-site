@@ -1,0 +1,31 @@
+/*
+Theme Name: Simple-Perle Child
+Description: Child theme for the Simple-Perle Theme
+Author: aw
+Template: simple-perle
+Version: 1.6
+*/
+/* things to do:
+Fix the height of the posts
+Get rid of all post comments
+Minimize header size
+Maybe a new logotype
+Move the social media somewhere
+Fix moblie and tablet
+*/
+
+
+@import url("../simple-perle/style.css");
+
+/* page title edits */
+
+.entry-meta {
+    font-size: 0px;
+}
+
+.entry-meta.bottom-meta:after {
+  display: none;
+}
+
+
+/*end of page title edits*/
