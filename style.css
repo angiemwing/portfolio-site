@@ -29,3 +29,20 @@ Fix moblie and tablet
 
 
 /*end of page title edits*/
+
+footer {
+  display: none;
+}
+
+
+/* attempt to minimize header     */
+
+@media screen and (min-width: 1400px) {
+  .site-content {
+    padding-top: 0px;
+    }}
+    @media screen and (min-width: 920px) {
+            .site-header {
+                  padding: 3em 1em 0em 1em;
+              } }
+/* end attempt to minimize header */
