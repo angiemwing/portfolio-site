@@ -46,3 +46,30 @@ footer {
                   padding: 3em 1em 0em 1em;
               } }
 /* end attempt to minimize header */
+
+/* making the content-area larger */
+@media screen and (min-width: 1023px) {
+  .content-area {
+    padding-right: 0%;
+    }}
+/* making the aside smaller */
+    @media screen and (min-width: 1023px) {
+  .widget-area-sidebar {
+    width: 20%;
+    }}
+
+
+
+/* making the admin dissapear */
+    @media screen and (min-width: 1023px) {
+      .single .entry-content .post-meta, .page:not(article) .entry-content .post-meta {
+    display: none;
+  }}
+/* post content to be 100% */
+  @media screen and (min-width: 1023px) {
+  .single .entry-content .post-content,
+  .single .entry-content .page-content,
+  .page:not(article) .entry-content .post-content,
+  .page:not(article) .entry-content .page-content {
+    width: 100%;
+    } }
