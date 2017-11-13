@@ -73,3 +73,45 @@ footer {
   .page:not(article) .entry-content .page-content {
     width: 100%;
     } }
+
+    /* making 3 posts wide */
+    @media screen and (min-width: 1023px) {
+      .site-main {
+
+        width: 100%;
+        }
+ }
+
+ @media screen and (min-width: 660px) {
+   .site-main {
+
+     width: 100%;
+     }
+}
+.post,
+.hentry {
+  height: 90%;
+}
+
+
+      @media screen and (min-width: 660px) {
+        .post,
+        .hentry {
+          display: inline-block;
+          margin: 0 1.25% 2em;
+          width: 47.5%;
+          } }
+
+          @media screen and (min-width: 1023px) {
+            .post,
+            .hentry {
+              display: inline-block;
+              margin: 0 1.25% 2em;
+              width: 30.5%;
+              } }
+
+
+              @media screen and (min-width: 1023px) {
+  .entry-title {
+    font-size: 36px;
+    font-size: 1.8rem; } }
