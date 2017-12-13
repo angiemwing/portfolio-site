@@ -115,3 +115,33 @@ footer {
   .entry-title {
     font-size: 36px;
     font-size: 1.8rem; } }
+    /* adjustments after making the home page a static page with text and about */
+
+    /* making the header title dispapear */
+        .vc_custom_1419240516480 {
+            display: none;
+        }
+    /* making the header space */
+        .entry-header-content {
+          display:none; }
+
+
+    /* hmmmm */
+    .single .entry-header.no-thumbnail, .page:not(article) .entry-header.no-thumbnail {
+        display: none;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: Georgia;
+    }
+
+    /* hover effects on the new grid opacity: 0.3;*/
+
+    .vc_gitem-zone:hover {
+
+      border: 5px solid white;
+    }
+
+    .single .entry-header, .page:not(article) .entry-header {
+      display: none;
+    }
