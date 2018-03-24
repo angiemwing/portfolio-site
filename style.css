@@ -5,38 +5,85 @@ Author: aw
 Template: simple-perle
 Version: 1.6
 */
-/* things to do:
-Fix the height of the posts
-Get rid of all post comments
-Minimize header size
-Maybe a new logotype
-Move the social media somewhere
-Fix moblie and tablet
-*/
+
 
 
 @import url("../simple-perle/style.css");
 
-/* page title edits */
+/* tyography */
 
+.site-branding .site-title {
+
+}
+.main-navigation li {
+
+}
+h1 { /*blog titles */
+  font-family: omnes-pro, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #555;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+}
+h2 { /* 4 descriptions, project titles */
+  font-family: "Bookman Old Style";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8em;
+  letter-spacing: .03em;
+}
+
+  h3 { /* two italic titles */
+    font-family: "Bookman Old Style";
+  	font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: .05em;
+    }
+h4 { /* top of page title */
+    font-family: omnes-pro, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #555;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+}
+
+p {
+  font-family: "omnes-pro",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #555;
+  font-size: .75em;
+  letter-spacing: 0.06em;
+  font-size: .8em;
+}
+
+.vc_custom_1419328663991 {
+     background-color: #ffffff !important;
+}
+
+ .site-info {
+  display: none;
+}
+
+.site-footer  {
+  background-color: #eae4da;
+}
+
+
+
+
+/* page title gone */
 .entry-meta {
     font-size: 0px;
 }
-
 .entry-meta.bottom-meta:after {
   display: none;
 }
 
-
-/*end of page title edits*/
-
-footer {
-  display: none;
-}
-
-
 /* attempt to minimize header     */
-
 @media screen and (min-width: 1400px) {
   .site-content {
     padding-top: 0px;
@@ -46,6 +93,7 @@ footer {
                   padding: 3em 1em 0em 1em;
               } }
 /* end attempt to minimize header */
+
 
 /* making the content-area larger */
 @media screen and (min-width: 1023px) {
@@ -73,6 +121,7 @@ footer {
   .page:not(article) .entry-content .page-content {
     width: 100%;
     } }
+
 
     /* making 3 posts wide */
     @media screen and (min-width: 1023px) {
@@ -115,33 +164,29 @@ footer {
   .entry-title {
     font-size: 36px;
     font-size: 1.8rem; } }
-    /* adjustments after making the home page a static page with text and about */
-
-    /* making the header title dispapear */
-        .vc_custom_1419240516480 {
-            display: none;
-        }
-    /* making the header space */
-        .entry-header-content {
-          display:none; }
 
 
-    /* hmmmm */
-    .single .entry-header.no-thumbnail, .page:not(article) .entry-header.no-thumbnail {
+/* adjustments after making the home page a static page with text and about */
+
+/* making the header title dispapear */
+    .vc_custom_1419240516480 {
         display: none;
     }
+/* making the header space */
+    .entry-header-content {
+      display:none; }
 
-    h1, h2, h3, h4, h5, h6 {
-      font-family: Georgia;
-    }
 
-    /* hover effects on the new grid opacity: 0.3;*/
+/* hmmmm */
+.single .entry-header.no-thumbnail, .page:not(article) .entry-header.no-thumbnail {
+    display: none;
+}
 
-    .vc_gitem-zone:hover {
 
-      border: 5px solid white;
-    }
 
-    .single .entry-header, .page:not(article) .entry-header {
-      display: none;
-    }
+
+
+
+.single .entry-header, .page:not(article) .entry-header {
+  display: none;
+}
